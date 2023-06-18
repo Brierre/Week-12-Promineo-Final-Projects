@@ -1,0 +1,32 @@
+button {
+    background-color: #67c1d8;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 10px;
+}
+
+h4 {
+    background-color: #a9a9a9;
+}
+
+table {
+    margin: 10px;
+}
+
+thead {
+    color: #67c1d8;
+}
+
+.navbar {
+    background-color: #67c1d8;
+}
+
+.form-control-rounded {
+    border-radius: 20px;
+    border-color: #67c1d8;
+}
+
+.btn-rounded {
+    border-radius: 20px;
+}
