@@ -1,139 +1,139 @@
 {
-  "finalProjects": [
-    {
-      "fullName": "Amier Hajyassin",
-      "finalProject": "bakery",
-      "github": "https://github.com/AmierHajyassin/bakery-finalproject",
-      "jdbcOrJpa": "",
-      "projectCriteriaMet": "false",
-      "videoLink": "",
-      "id": 2
-    },
-    {
-      "fullName": "Travis Stokes",
-      "finalProject": "bike build",
-      "github": "https://github.com/tstokes433/BikeBuildFinal",
-      "jdbcOrJpa": "jdbc",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 3
-    },
-    {
-      "fullName": "Stephanie Back",
-      "finalProject": "woopies",
-      "github": "https://github.com/stephback/WooPies-Final-Project",
-      "jdbcOrJpa": "jdbc",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 4
-    },
-    {
-      "fullName": "Jacob Udel",
-      "finalProject": "sar dogs",
-      "github": "https://github.com/JacobUdel/Sar_Dogs",
-      "jdbcOrJpa": "jbdc",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 5
-    },
-    {
-      "fullName": "Raina Gulbrandsen",
-      "finalProject": "cruise itinerary",
-      "github": "",
-      "jdbcOrJpa": "jdbc",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 6
-    },
-    {
-      "fullName": "Kyle Miles",
-      "finalProject": "demo for jpa",
-      "github": "https://github.com/Kyle-Miles/demo-for-jpa",
-      "jdbcOrJpa": "jpa",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 7
-    },
-    {
-      "fullName": "Michael Goeres",
-      "finalProject": "twilight zone",
-      "github": "https://github.com/MichaelG2022/Final-Project-Twilight-Zone",
-      "jdbcOrJpa": "",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 8
-    },
-    {
-      "fullName": "Kent Ma",
-      "finalProject": "pc builder",
-      "github": "https://github.com/KentMa-6534/Backend-Final-Project---PC-Builder",
-      "jdbcOrJpa": "jdbc",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 9
-    },
-    {
-      "fullName": "Jolene Melanson",
-      "finalProject": "saxy saxophone repair tracker",
-      "github": "https://github.com/JoleneMel/SaxySaxophoneRepairTracker",
-      "jdbcOrJpa": "jdbc",
-      "projectCriteriaMet": "true",
-      "videoLink": "",
-      "id": 10
-    },
-    {
-      "fullName": "Brandee McKinney",
-      "finalProject": "b cakes",
-      "github": "https://github.com/McKinney93/b_cakes",
-      "jdbcOrJpa": "jdbc",
-      "projectCriteriaMet": "",
-      "videoLink": "",
-      "id": 11
-    },
-    {
-      "fullName": "Kyle Miles",
-      "finalProject": "nfl mock draft",
-      "github": "https://github.com/Kyle-Miles/Final-Project-NFL-Mock-Draft-Web-API",
-      "jdbcOrJpa": "jpa",
-      "projectCriteriaMet": "",
-      "videoLink": "",
-      "id": 12
-    },
-    {
-      "fullName": "Darrell Terry",
-      "finalProject": "alarm and automation",
-      "github": "https://github.com/dsterry2000/AlarmAndAutomationCIM",
-      "jdbcOrJpa": "jpa",
-      "projectCriteriaMet": "false",
-      "videoLink": "",
-      "id": 13
-    },
-    {
-      "fullName": "Gma Betty",
-      "finalProject": "CarpenterBeeeeeeez",
-      "github": "github.com",
-      "jdbcOrJpa": "on",
-      "projectCriteriaMet": "on",
-      "videoLink": "rumble.com",
-      "id": 15
-    },
-    {
-      "fullName": "Li'l Abner",
-      "finalProject": "Progress",
-      "github": "rootofallevil.com",
-      "jdbcOrJpa": "on",
-      "projectCriteriaMet": "on",
-      "videoLink": "rumble.com",
-      "id": 16
-    },
-    {
-      "fullName": "Hedro Haigh",
-      "finalProject": "FFXI Helper",
-      "github": "github.com",
-      "jdbcOrJpa": "on",
-      "projectCriteriaMet": "on",
-      "videoLink": "rumble.com",
-      "id": 17
-    }
-  ]
-}
+    "finalProjects": [
+      {
+        "fullName": "Amier Hajyassin",
+        "finalProject": "bakery",
+        "github": "https://github.com/AmierHajyassin/bakery-finalproject",
+        "jdbcOrJpa": "",
+        "projectCriteriaMet": "false",
+        "videoLink": "",
+        "id": 2
+      },
+      {
+        "fullName": "Travis Stokes",
+        "finalProject": "bike build",
+        "github": "https://github.com/tstokes433/BikeBuildFinal",
+        "jdbcOrJpa": "jdbc",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 3
+      },
+      {
+        "fullName": "Stephanie Back",
+        "finalProject": "woopies",
+        "github": "https://github.com/stephback/WooPies-Final-Project",
+        "jdbcOrJpa": "jdbc",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 4
+      },
+      {
+        "fullName": "Jacob Udel",
+        "finalProject": "sar dogs",
+        "github": "https://github.com/JacobUdel/Sar_Dogs",
+        "jdbcOrJpa": "jbdc",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 5
+      },
+      {
+        "fullName": "Raina Gulbrandsen",
+        "finalProject": "cruise itinerary",
+        "github": "",
+        "jdbcOrJpa": "jdbc",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 6
+      },
+      {
+        "fullName": "Kyle Miles",
+        "finalProject": "demo for jpa",
+        "github": "https://github.com/Kyle-Miles/demo-for-jpa",
+        "jdbcOrJpa": "jpa",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 7
+      },
+      {
+        "fullName": "Michael Goeres",
+        "finalProject": "twilight zone",
+        "github": "https://github.com/MichaelG2022/Final-Project-Twilight-Zone",
+        "jdbcOrJpa": "",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 8
+      },
+      {
+        "fullName": "Kent Ma",
+        "finalProject": "pc builder",
+        "github": "https://github.com/KentMa-6534/Backend-Final-Project---PC-Builder",
+        "jdbcOrJpa": "jdbc",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 9
+      },
+      {
+        "fullName": "Jolene Melanson",
+        "finalProject": "saxy saxophone repair tracker",
+        "github": "https://github.com/JoleneMel/SaxySaxophoneRepairTracker",
+        "jdbcOrJpa": "jdbc",
+        "projectCriteriaMet": "true",
+        "videoLink": "",
+        "id": 10
+      },
+      {
+        "fullName": "Brandee McKinney",
+        "finalProject": "b cakes",
+        "github": "https://github.com/McKinney93/b_cakes",
+        "jdbcOrJpa": "jdbc",
+        "projectCriteriaMet": "",
+        "videoLink": "",
+        "id": 11
+      },
+      {
+        "fullName": "Kyle Miles",
+        "finalProject": "nfl mock draft",
+        "github": "https://github.com/Kyle-Miles/Final-Project-NFL-Mock-Draft-Web-API",
+        "jdbcOrJpa": "jpa",
+        "projectCriteriaMet": "",
+        "videoLink": "",
+        "id": 12
+      },
+      {
+        "fullName": "Darrell Terry",
+        "finalProject": "alarm and automation",
+        "github": "https://github.com/dsterry2000/AlarmAndAutomationCIM",
+        "jdbcOrJpa": "jpa",
+        "projectCriteriaMet": "false",
+        "videoLink": "",
+        "id": 13
+      },
+      {
+        "fullName": "Gma Betty",
+        "finalProject": "CarpenterBeeeeeeez",
+        "github": "github.com",
+        "jdbcOrJpa": "on",
+        "projectCriteriaMet": "on",
+        "videoLink": "rumble.com",
+        "id": 15
+      },
+      {
+        "fullName": "Li'l Abner",
+        "finalProject": "Progress",
+        "github": "rootofallevil.com",
+        "jdbcOrJpa": "on",
+        "projectCriteriaMet": "on",
+        "videoLink": "rumble.com",
+        "id": 16
+      },
+      {
+        "fullName": "Hedro Haigh",
+        "finalProject": "FFXI Helper",
+        "github": "github.com",
+        "jdbcOrJpa": "on",
+        "projectCriteriaMet": "on",
+        "videoLink": "rumble.com",
+        "id": 17
+      }
+    ]
+  }
