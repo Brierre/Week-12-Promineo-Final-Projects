@@ -29,7 +29,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                    Tools
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#addProject">Add a Project</a>
@@ -37,8 +37,8 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control-rounded p-2 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-rounded btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control-rounded p-2 mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search"/>
+                <button class="btn btn-rounded btn-outline-dark my-2 my-sm-0" type="submit" value="searchText">Search</button>
             </form>
         </div>
     </nav>
@@ -61,25 +61,25 @@
                     </div>
                     <div>
                         <label class="radio-inline">JDBC or JPA?
-                            <input type="radio" name="optradio">JDBC
+                            <input id="jdbcradio" type="radio" name="optradio" value="JDBC"/>JDBC
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="optradio">JPA
+                            <input id="jparadio" type="radio" name="optradio" value="JPA"/>JPA
                         </label>
                     </div>
                     <div>
                         <label class="radio-inline">Criteria Fully Satisfied?
-                            <input type="radio" name="optradio2">Yes
+                            <input id="yesradio" type="radio" name="optradio2" value="Yes"/>Yes
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="optradio2">Work in progress
+                            <input id="noradio" type="radio" name="optradio2" value="Work in progress"/>Work in progress
                         </label>
                     </div>
                     <div>
                         <label for="video">Video Link</label>
                             <input class="form-control-rounded" id="video" placeholder="Enter a link to your video"/>
                     </div>
-                    <button id="submitForm">Submit</button>
+                    <button id="addForm">Submit</button>
                 </form>
             </div>    
             <div class="col-md m-5">
@@ -87,7 +87,7 @@
                     <h4>Update Project Info</h4>
                     <div>
                         <label for="idSelection">ID</label>
-                        <input class="form-control-rounded" id="idSelection" placeholder="Enter your project ID"/>
+                        <input class="form-control-rounded" id="idSelection" placeholder="Enter the project ID"/>
                     </div>
                     <div>
                         <label for="updateName">Full Name</label>
@@ -103,18 +103,18 @@
                     </div>
                     <div>
                         <label class="radio-inline">JDBC or JPA?
-                            <input type="radio" name="optradio">JDBC
+                            <input id="jdbcradio2" type="radio" name="optradio" value="JDBC"/>JDBC
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="optradio">JPA
+                            <input id="jparadio2" type="radio" name="optradio" value="JPA"/>JPA
                         </label>
                     </div>
                     <div>
                         <label class="radio-inline">Criteria Fully Satisfied?
-                            <input type="radio" name="optradio2">Yes
+                            <input id="yesradio2" type="radio" name="optradio2" value="Yes"/>Yes
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="optradio2">Work in progress
+                            <input id="noradio2" type="radio" name="optradio2" value="Work in progress"/>Work in progress
                         </label>
                     </div>
                     <div>
@@ -126,7 +126,7 @@
             </div>
         </div>
     </div>
-    <table class="table table-dark table-striped">
+    <table id="projectsList" class="table table-dark table-striped">
         <thead>
             <th>ID</th>
             <th>Full Name</th>
