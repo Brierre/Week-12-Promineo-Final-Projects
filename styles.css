@@ -37,3 +37,26 @@ thead {
     border-radius: 20px;
     padding: 0.25em;
 }
+
+.sr-only {
+    color: #fff333;
+}
+
+.p {
+    margin: 10px 40px 40px 10px;
+}
+
+#phead {
+    margin: 10px 0px 0px 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #67c1d8;
+    color: #ffffff;
+}
+
+.modalbtn {
+    border-radius: 20px;
+    margin: 20px 0px 0px 0px;
+    padding: 0.25em 2em 0.25em 2em;
+}

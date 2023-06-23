@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About Promineo Tech Back-End Final Projects</title>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!--NAVBAR SECTION: HOME, ABOUT, TOOLS (DROPDOWN MENU TOGGLES MODALS FOR ADD/UPDATE FORMS) SEARCH PROJECTS (FILTERS BY SEARCH INPUT)------>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#brand">
+            <img src="images/promineo_horizontal-1-02-1.png" width="200" alt="promineo tech logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About this project<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add/Update Tools
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Add a Project</a>
+                        <a class="dropdown-item" href="index.html">Update a Project</a>
+                    </div>
+                </li>
+            </ul>
+<!--           <form class="form-inline my-2 my-lg-0" action="#">
+                <input class="form-control-rounded p-2 mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search" id="searchText"/>
+            </form>-->
+        </div>
+    </nav>
+
+<!--END NAVBAR SECTION------------------------------------------------------------------------------------------------------------------------>
+
+<div class="container">
+    <h3 id="phead">Why Final Projects?</h3>
+    <div class="p">
+        The inspiration for this project came when I realized there was no central repository for our boot camp final projects. These Promineo Tech final projects are no joke! <em>It is a lot of difficult work to 
+        make a project such as this happen from scratch.</em> In my observation, we often got into our own little coding bubble and put so much of ourselves into project completion and debugging that we forgot (or ran out 
+        of time) to celebrate the project itself and the skills we had to learn to get things done.
+    </div>
+
+    <div class="p">
+        Many times along my journey, I would see someone working in office hours, trying to fix a problem in their code. There was great joy and relief when a typo was spotted, or a solution was found. There were 
+        many laughs (after the fact, not during) when it turned out to be one of the stupid mistakes we all make from time to time--like the pesky 's' or the missing space in a SQL statement. Once the problem was 
+        solved, we went back to work and the rest of the group rarely got to see the finished product. While I worked on my own project, I also looked up other projects on github to see how someone did something 
+        I wanted to emulate, but many times I came away frustrated when I couldn't find exactly the right thing, even though I knew there was somebody out there who had attempted it.
+    </div>
+
+    <div class="p">
+        So here's a place where we can proudly submit our projects for others to check out, whether it is for help with code, to find a new idea, or just to celebrate a person whose efforts did not go unnoticed 
+        during the boot camp!
+    </div>
+</div>
+
+<!--BEGIN SCRIPTS----------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Jquery CDN  -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <!-- Popper CDN: For dropdowns, popovers, tooltips, etc-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <!-- Bootstrap Script CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <!-- Our script -->
+    <script src="promineoFinals.js"></script>
+</body>
+</html>
