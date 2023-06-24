@@ -27,10 +27,10 @@ function drawTable() {
                     <td>${project.id}</td>
                     <td>${project.fullName}</td>
                     <td>${project.finalProject}</td>
-                    <td>${project.github}</td>
+                    <td><a href="${project.github}" target="_blank">${project.github}</a></td>
                     <td>${project.jdbcOrJpa}</td>
                     <td>${project.projectCriteriaMet}</td>
-                    <td>${project.videoLink}</td>
+                    <td><a href ="${project.videoLink}" target="_blank">${project.videoLink}</a></td>
                     <td>
                     <button id="delete" onclick="deleteProject(${project.id})">🗑</button>
                     </td>
@@ -119,10 +119,10 @@ function createFilteredTable(matchingIDs) {
                     <td>${dataArray[tableInd][0]}</td>
                     <td>${dataArray[tableInd][1]}</td>
                     <td>${dataArray[tableInd][2]}</td>
-                    <td>${dataArray[tableInd][3]}</td>
+                    <td><a href="${dataArray[tableInd][3]}" target="_blank">${dataArray[matchingIDs[searchIndex]][3]}</a></td>
                     <td>${dataArray[tableInd][4]}</td>
                     <td>${dataArray[tableInd][5]}</td>
-                    <td>${dataArray[tableInd][6]}</td>
+                    <td><a href="${dataArray[tableInd][6]}" target="_blank">${dataArray[matchingIDs[searchIndex]][6]}</a></td>
                     <td>
                     <button id="delete" onclick="deleteProject(${project.id})">🗑</button>
                     </td>
@@ -139,10 +139,10 @@ function createFilteredTable(matchingIDs) {
                     <td>${dataArray[matchingIDs[searchIndex]][0]}</td>
                     <td>${dataArray[matchingIDs[searchIndex]][1]}</td>
                     <td>${dataArray[matchingIDs[searchIndex]][2]}</td>
-                    <td>${dataArray[matchingIDs[searchIndex]][3]}</td>
+                    <td><a href="${dataArray[matchingIDs[searchIndex]][3]}" target="_blank">${dataArray[matchingIDs[searchIndex]][3]}</a></td>
                     <td>${dataArray[matchingIDs[searchIndex]][4]}</td>
                     <td>${dataArray[matchingIDs[searchIndex]][5]}</td>
-                    <td>${dataArray[matchingIDs[searchIndex]][6]}</td>
+                    <td><a href="${dataArray[matchingIDs[searchIndex]][6]}" target="_blank">${dataArray[matchingIDs[searchIndex]][6]}</a></td>
                     <td>
                     <button id="delete" onclick="deleteProject(${project.id})">🗑</button>
                     </td>
